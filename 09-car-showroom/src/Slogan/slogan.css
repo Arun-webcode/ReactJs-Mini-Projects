@@ -1,0 +1,25 @@
+.slogan-container {
+  width: 100%;
+  height: 7vh;
+  text-align: center;
+  overflow: hidden;
+  font-size: xx-large;
+}
+
+.slogan-text {
+  position: relative;
+  animation: moveLeftToRight 15s linear infinite;
+  white-space: nowrap;
+}
+
+@keyframes moveLeftToRight {
+  0% {
+    left: -100%;
+    /* move the text off-screen to the left */
+  }
+
+  100% {
+    left: 100%;
+    /* move the text off-screen to the right */
+  }
+}
