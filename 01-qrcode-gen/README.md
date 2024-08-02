@@ -23,6 +23,7 @@ This project is a QR Code Generator built using React. It allows users to input 
   - cd qr-code-generator
   - npm install
   - npm run dev
+Note - Remember to edit in tailwind.config.js file.
   ```
 
 ## Usage
