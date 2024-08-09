@@ -1,5 +1,6 @@
 # QR Code Generator
 
+<a href="https://qr-generator-webcode.netlify.app/">For Live Demo Click Here</a>
 This project is a QR Code Generator built using React. It allows users to input text, select the background colour, and adjust the dimensions to generate a QR code. The generated QR code can be downloaded as well.
 
 ## Features
@@ -18,24 +19,25 @@ This project is a QR Code Generator built using React. It allows users to input 
 
 1. Clone the repository:
 
-  ```bash
-  - git clone https://github.com/arun-webcode/Reactjs-mini-projects/edit/main/01-qrcode-gen
-  - cd qr-code-generator
-  - npm install
-  - npm run dev
+```bash
+- git clone https://github.com/arun-webcode/Reactjs-mini-projects/edit/main/01-qrcode-gen
+- cd qr-code-generator
+- npm install
+- npm run dev
 Note - Remember to add this code on tailwind.config.js file.
-  /** @type {import('tailwindcss').Config} */
+/** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  darkMode: "class",
-  theme: {
-    extend: {},
-  },
-  plugins: [],
+content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+darkMode: "class",
+theme: {
+  extend: {},
+},
+plugins: [],
 };
-  ```
+```
 
 ## Usage
+
 1. Open the application in your browser.
 2. Enter the text you want to encode in the QR code.
 3. Select the background colour using the colour picker.
@@ -45,17 +47,16 @@ export default {
 
 ##Project Structure
 src/
-│ 
+│
 ├── components/
-│   ├── Header.jsx
-│   ├── InputBox.jsx
-│   ├── ExtraOptions.jsx
+│ ├── Header.jsx
+│ ├── InputBox.jsx
+│ ├── ExtraOptions.jsx
 │
 ├── App.jsx
 ├── index.css
 ├── main.jsx
 └── index.html
-
 
 Currently, two official plugins are available:
 
