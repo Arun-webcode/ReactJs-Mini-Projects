@@ -31,7 +31,7 @@ function CompletedTasks() {
         completedTasks.map((task, index) => (
           <div
             key={index}
-            class="bg-white p-4 rounded-lg shadow-lg flex items-center border mb-2"
+            class="bg-white p-4 rounded-lg shadow-lg flex items-center border mb-2 justify-between"
           >
             <div>
               <p class="font-bold">{task.title}</p>
