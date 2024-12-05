@@ -1,7 +1,6 @@
 # QR Code Generator
 
 <a href="https://qr-generator-webcode.netlify.app/">For Live Demo Click Here</a>
-<a href = "https://qr-generator-webcode.netlify.app/" >For live link Click here</a> 
 This project is a QR Code Generator built using React. It allows users to input text, select the background colour, and adjust the dimensions to generate a QR code. The generated QR code can be downloaded as well.
 
 ## Features
